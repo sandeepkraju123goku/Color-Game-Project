@@ -1,0 +1,74 @@
+body{
+	background:black;
+	margin: 0;
+	font-family:  sans-serif;
+}
+
+.square{
+	background: purple;
+	width:30%;
+	padding-bottom: 30%;
+	float:left;
+	margin: 1.66%;
+	border-radius: 18%; 
+	transition: background 0.5s
+}
+
+#container{
+	max-width: 500px;
+	margin: 20px  auto;
+
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0; 
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding:20px 0;
+	font-weight:normal;
+}
+
+
+#srtip{
+	height: 30%;
+	background: white;
+	text-align: center;
+	color: black;
+
+}	
+
+.selected{
+		color: white;
+	background: steelblue;
+}
+
+#colorDisplay{
+	font-size: 200%; 
+}
+
+button{
+	border: none;
+	background: none;
+	height:100%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: steelblue;
+	transition: all 0.3s;
+	outline: none;
+	font-size: inherit;
+
+} 
+
+#messageDisplay{
+	display:inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
